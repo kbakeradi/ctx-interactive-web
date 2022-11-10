@@ -1,0 +1,27 @@
+@import '../../../styles/variables.scss';
+
+.button {
+  background-color: $color-blue1-dark;
+  color: $color-grayscale-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 16px;
+  gap: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    text-decoration: underline;
+  }
+
+  &:disabled {
+    background-color: $color-grayscale-gray;
+  }
+}

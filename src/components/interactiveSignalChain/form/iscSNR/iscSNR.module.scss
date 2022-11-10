@@ -1,0 +1,26 @@
+@import '../../../../styles/variables.scss';
+
+.container {
+  height: auto;
+  width: 230px;
+  flex: 1;
+
+  & .containerTitle {
+    padding: 8px 16px;
+    background-color: $color-grayscale-gray;
+    color: $color-grayscale-white;
+    border-bottom: 4px solid $color-grayscale-white;
+  }
+
+  & .containerAmount {
+    width: 100%;
+    height: 72%;
+    max-height: 72%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 17px;
+    background-color: $color-grayscale-gray1-light;
+    color: $color-grayscale-gray-dark;
+  }
+}
