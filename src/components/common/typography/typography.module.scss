@@ -1,0 +1,29 @@
+@import '../../../styles/variables.scss';
+
+:root {
+  font-family: $font-family-arial;
+}
+
+.h1 {
+  font-weight: $typography-h1-weight;
+  font-size: $typography-h1-size;
+  line-height: $typography-h1-line-height;
+}
+
+.body1 {
+  font-weight: $typography-body1-weight;
+  font-size: $typography-body1-size;
+  line-height: $typography-body1-line-height;
+}
+
+.body2 {
+  font-weight: $typography-body2-weight;
+  font-size: $typography-body2-size;
+  line-height: $typography-body2-line-height;
+}
+
+.button {
+  font-weight: $typography-button-weight;
+  font-size: $typography-button-size;
+  line-height: $typography-button-line-height;
+}

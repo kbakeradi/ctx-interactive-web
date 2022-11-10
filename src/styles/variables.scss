@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Barlow:wght@400;500;600;700&display=swap');
+
+/* Typography */
+$font-family-arial: Arial;
+$font-family-barlow: Barlow;
+
+$typography-h1-weight: 700;
+$typography-h1-size: 28px;
+$typography-h1-line-height: 36px;
+
+$typography-h2-weight: 600;
+$typography-h2-size: 32px;
+
+$typography-h3-weight: 400;
+$typography-h3-size: 24px;
+$typography-h3-line-height: 26.4px;
+$typography-h3-font-family: 'Barlow Semi Condensed', arial;
+
+$typography-h4-weight: 600;
+$typography-h4-size: 24px;
+
+$typography-h5-weight: 500;
+$typography-h5-size: 24px;
+$typography-h5-line-height: 28.8px;
+
+$typography-h6-weight: 500;
+$typography-h6-size: 20px;
+$typography-h6-line-height: 24px;
+
+$typography-subtitle-weight: 400;
+$typography-subtitle-size: 14px;
+$typography-subtitle-line-height: 20px;
+$typography-subtitle-font-family: arial;
+
+$typography-subtitle2-weight: 700;
+$typography-subtitle2-size: 14px;
+$typography-subtitle2-line-height: 16px;
+$typography-subtitle2-font-family: arial;
+
+$typography-subtitle3-weight: 700;
+$typography-subtitle3-size: 14px;
+$typography-subtitle3-line-height: 11.7px;
+$typography-subtitle3-font-family: arial;
+
+$typography-button-weight: 400;
+$typography-button-size: 16px;
+$typography-button-line-height: 20px;
+$typography-button-font-family: arial;
+
+$typography-button2-weight: 400;
+$typography-button2-size: 14px;
+$typography-button2-line-height: 22px;
+$typography-button2-font-family: arial;
+
+$typography-body1-weight: 400;
+$typography-body1-size: 14px;
+$typography-body1-line-height: 20px;
+$typography-body1-font-family: arial;
+
+$typography-body2-weight: 700;
+$typography-body2-size: 14px;
+$typography-body2-line-height: 20px;
+$typography-body2-font-family: arial;
+
+$typography-link-weight: 500;
+$typography-link-size: 24px;
+$typography-link-line-height: 28.8px;
+
+$typography-link2-weight: 500;
+$typography-link2-size: 16px;
+$typography-link2-line-height: 24px;
+$typography-link2-font-family: arial;
+
+/* Colors */
+$color-grayscale-white: #ffffff;
+$color-grayscale-gray1-light: #f2f2f2;
+$color-grayscale-gray2-light: #e4e4e4;
+$color-grayscale-gray: #a2a2a2;
+$color-grayscale-gray-dark: #636363;
+$color-grayscale-gray6: #edeeef;
+$color-grayscale-black: #000000;
+
+$color-blue1-dark: #1e4056;
+$color-blue1: #23527c;
+$color-blue1-light: #009fbd;
+$color-blue1-gray: #dee4ec;
+
+$color-blue2-dark: #15508d;
+$color-blue2-light: #0067b9;
