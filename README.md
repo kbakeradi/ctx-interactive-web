@@ -29,3 +29,10 @@ The below command will generate a /dist folder inside the root.
 npm run build
 yarn run build
 ```
+
+
+## Deploy
+
+- Attempt 1
+
+
