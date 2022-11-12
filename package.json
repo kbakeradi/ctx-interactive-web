@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "version":"echo `date` > version.txt && mkdir -p dist && cp -f version.txt dist/version.txt",
+    "version":"echo \"Commit: `date`\" > version.txt && mkdir -p dist && cp -f version.txt dist/version.txt",
     "build": "tsc && vite build && npm run version",
     "preview": "vite preview",
     "predeploy" : "npm run build",
