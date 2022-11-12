@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
+    "force-commit": "git add . && git commit --allow-empty -m \"`date`\" . && git push",
     "homepage": "https://main.d7q82a0nqblbd.amplifyapp.com/"
   },
   "dependencies": {
