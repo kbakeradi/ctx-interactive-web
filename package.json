@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "version":"echo `date` > version.txt && mkdir -p dist && cp -f version.txt dist/version.txt",
+    "build": "tsc && vite build && npm run version",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
-    "homepage": "https://adi-ctx.github.io/interactive-web-poc/"
-
+    "deploy" : "gh-pages -d dist",
+    "homepage": "https://main.d7q82a0nqblbd.amplifyapp.com/"
   },
   "dependencies": {
     "react": "^18.2.0",

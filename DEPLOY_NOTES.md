@@ -1,0 +1,4 @@
+- The issue with the deploy of the React app is related to the "BASE PATH" of the deployed appl. React expects all compiled assets to be at `/assets`. Because the app is deployed to github pages in a subdirectory `interactive-web-poc` of the root `https://adi-ctx.github.io`, the `/assets` directory is not discovered since gh-pages actually pushes it to `interactive-web-poc/assets` as far as the browser is concerned.
+- Also the vite command outputs to the `dist` folder not build, so the deploy command should reference that not `build` which actually refers to the destination folder of the build.
+- Fix - The "dist" folder that is is created from the `npm run build` command can be updated with the `interactive-web-poc` folder, then move the `assets` folder in there. Then run `npm run deploy`. To automate this do this following.
+  1.  
